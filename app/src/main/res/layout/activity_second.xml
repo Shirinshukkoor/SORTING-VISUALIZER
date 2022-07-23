@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".second">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn1"
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:background="@drawable/custom2"
+        android:fontFamily="@font/merriweather_black_italic"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/bub"
+        android:textAllCaps="false"
+        android:textColor="#0D5323"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn2"
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:background="@drawable/custom2"
+        android:fontFamily="@font/merriweather_black_italic"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/quick"
+        android:textAllCaps="false"
+        android:textColor="#0D4B53"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.305" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn3"
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:background="@drawable/custom2"
+        android:fontFamily="@font/merriweather_black_italic"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/select"
+        android:textAllCaps="false"
+        android:textColor="#0D4B53"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.487" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn4"
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:background="@drawable/custom2"
+        android:fontFamily="@font/merriweather_black_italic"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/merge"
+        android:textAllCaps="false"
+        android:textColor="#0D4B53"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.676" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn5"
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:background="@drawable/custom2"
+        android:fontFamily="@font/merriweather_black_italic"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/in"
+        android:textAllCaps="false"
+        android:textColor="#0D4B53"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.855" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
